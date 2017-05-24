@@ -170,8 +170,8 @@ convert `Number` to UINT64.
 
 ## Encode asar package files
 
-Now used simple XOR algorithm
-For apply encoding use ASAR_ENCODE_KEY enviriment variable while archiving 
+Now used simple XOR algorithm  
+For apply encoding use ASAR_ENCODE_KEY enviriment variable while archiving  
 ASAR_ENCODE_KEY may be 0..255
 
 
