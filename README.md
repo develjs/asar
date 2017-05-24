@@ -167,6 +167,14 @@ precisely represent UINT64 in JavaScript `Number`. `size` is a JavaScript
 because file size in Node.js is represented as `Number` and it is not safe to
 convert `Number` to UINT64.
 
+
+## Encode asar package files
+
+Now used simple XOR algorithm
+For apply encoding use ASAR_ENCODE_KEY enviriment variable while archiving 
+ASAR_ENCODE_KEY may be 0..255
+
+
 [pickle]: https://chromium.googlesource.com/chromium/src/+/master/base/pickle.h
 [node-pickle]: https://www.npmjs.org/package/chromium-pickle
 [grunt-asar]: https://github.com/bwin/grunt-asar
